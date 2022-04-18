@@ -12,14 +12,14 @@ Contents of the Project
     * DataToPatienceMeasures: This file reads in the cleaned data, extracts indifference points using logistic regression fits, performs curve fitting for linear, hyperbolic and exponential discounting functions, and then uses bootstrapping and bounds to ensure validity of estimates. 
     * TrendGeneration: Based on the fitting parameters and survey data, the trends and correlations were found. Although the results are insignificant, some correlations appear to exist. 
   *  Results (Other files & folders) 
-    * Plots: Contain all the generated plots, including:
-      * Logistic Regression Plots
-      * Heatmaps
-      * Fitting plots 
-      * Bootstrapping plots 
-    * PatienceMeasures: Stores the fitting parameters for the linear, hyperbolic and beta-delta function fits 
-    * ParticipantEstimates: Stores the bootstrapping estimates, error values, 95% confidence intervals for all fit parameters, and indicates if the k-value was within the range
-    * Trends: Contains the plots generated for the visualization of the fitting parameters versus the state of mind factors collected from the survey. This also contains the linear fits generated for Happiness, Stress, and Sleep with respect to the hyperbolic discounting factor k under various conditions. 
+      * Plots: Contain all the generated plots, including:
+       * Logistic Regression Plots
+       * Heatmaps
+       * Fitting plots 
+       * Bootstrapping plots 
+     * PatienceMeasures: Stores the fitting parameters for the linear, hyperbolic and beta-delta function fits 
+     * ParticipantEstimates: Stores the bootstrapping estimates, error values, 95% confidence intervals for all fit parameters, and indicates if the k-value was within the range
+     * Trends: Contains the plots generated for the visualization of the fitting parameters versus the state of mind factors collected from the survey. This also contains the linear fits generated for Happiness, Stress, and Sleep with respect to the hyperbolic discounting factor k under various conditions. 
 3. Combined_Data: This folder contains the .csv files with the data combined for all participants. All choice data and survey information is collated into a single file for easier use
 4. Experimental_Data: This folder contains the original data collected from the participants. (Since it contains identifying information, these files will not be uploaded to GitHub.) Once files are generated using our temporal discounting paradigm, they should be placed here for appropriate data extraction. 
 5. FinalParadigm: This folder contains a copy of our temporal paradigm. This was created using lab.js, and was published online via Netlify at: https://tubular-basbousa-d35eae.netlify.app/
