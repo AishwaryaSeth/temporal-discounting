@@ -13,10 +13,10 @@ Contents of the Project
     * TrendGeneration: Based on the fitting parameters and survey data, the trends and correlations were found. Although the results are insignificant, some correlations appear to exist. 
   *  Results (Other files & folders) 
       * Plots: Contain all the generated plots, including:
-       * Logistic Regression Plots
-       * Heatmaps
-       * Fitting plots 
-       * Bootstrapping plots 
+            * Logistic Regression Plots
+            * Heatmaps
+            * Fitting plots 
+            * Bootstrapping plots 
      * PatienceMeasures: Stores the fitting parameters for the linear, hyperbolic and beta-delta function fits 
      * ParticipantEstimates: Stores the bootstrapping estimates, error values, 95% confidence intervals for all fit parameters, and indicates if the k-value was within the range
      * Trends: Contains the plots generated for the visualization of the fitting parameters versus the state of mind factors collected from the survey. This also contains the linear fits generated for Happiness, Stress, and Sleep with respect to the hyperbolic discounting factor k under various conditions. 
