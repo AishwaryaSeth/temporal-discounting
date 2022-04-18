@@ -1,0 +1,11 @@
+Age,Degree,Essentials,Happiness,Investments,Leisure,Sleep,Stress,RefID
+21,Undergraduate,0.70,5,0.10,0.20,7,4,1
+20,Undergraduate,0.8,3,0,0.2,4,5,2
+22,Undergraduate,0.4,5,0.1,0.4,7,3,3
+24,PhD,0.55,3,0.35,0.1,7,3,4
+23,PhD,0.40,2,0.40,0.20,3,2,5
+20,Undergraduate,0.60,4,0.00,0.10,6,2,6
+23,PhD,,,,,8,,7
+20,Undergraduate,0.60,4,0.20,0.20,10,5,8
+26,Masters,0.7,4,0,0.3,8,1,9
+20,Undergraduate,0.9,3,0,0.1,6,5,10
